@@ -57,7 +57,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
             child: const Text('タスクを追加'),
           ),
           Expanded(
-            child: ListView.builder(
+            child: ListView.builder(//https://note.com/qkuronekop/n/n7163ea911cc3のサイトを参考にListViewを使いました
               itemCount: tasks.length,
               itemBuilder: (context, index) {
                 return Card( // 新Widget,Cardを使用
