@@ -42,7 +42,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
     _controller.dispose();
     super.dispose();
   }
-}
+}//https://qiita.com/pe-ta/items/b3b7458059c1fd7efcf0のサイトを参考にしました
 
 class Task {
   String name;
